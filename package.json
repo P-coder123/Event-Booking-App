@@ -1,0 +1,39 @@
+{
+  "name": "event",
+  "version": "1.0.0",
+  "description": "This is a event booking app",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "dev": "ts-node-dev --respawn --transpile-only index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/P-coder123/Event-Booking-mern-app.git"
+  },
+  "keywords": [
+    "hh"
+  ],
+  "author": "Priya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/P-coder123/Event-Booking-mern-app/issues"
+  },
+  "homepage": "https://github.com/P-coder123/Event-Booking-mern-app#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "joi": "^18.0.1",
+    "mongoose": "^8.17.1",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.3.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.2"
+  }
+}
